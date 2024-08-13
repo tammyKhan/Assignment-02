@@ -1,8 +1,5 @@
 @media  screen and (max-width:576px) {
-  .navbar{
-    justify-content:space-between;
-
-  }
+  
   .nav-options{
     display: none;
     
@@ -10,4 +7,9 @@
   .ham-burger{
     display: block;
   }
+  .nav-banner{
+    display:flex;
+    flex-direction: column;
+  }
+  
 }
