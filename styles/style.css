@@ -11,7 +11,7 @@ body{
 /* default styles */
 .container{
   width:90%;
-  margin:2rem auto; /* 1rem = 16px */
+  margin:3rem auto; /* 1rem = 16px */
   border-radius: 1px;
 }
 .text-content{
@@ -78,6 +78,9 @@ h3{
  letter-spacing: 0.1px;
  color: rgba(255, 255, 255, 0.893);
 }
+.btn-primary{
+  display: flex;
+}
 .btn-simple,
 .btn-orange{
   border: 1px solid rgb(255, 255, 255);
@@ -126,4 +129,25 @@ h3{
   width: 35px;
   margin-right: 5px;
 
+}
+
+/* change Your Habits */
+.change-habits{
+color: white;
+text-align: center;
+}
+.change-habits-img{
+  display: flex;
+  gap: 40px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+}
+.change-habits-img img{
+  border-radius: 50%;
+  margin-bottom: 20px;
+  border:1px solid rgba(135, 127, 127, 0.628);
+
+}
+h2{
+  margin:14px 0;
 }

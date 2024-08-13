@@ -1,5 +1,8 @@
 @media  screen and (max-width:576px) {
-  
+  .nav-content h1,
+  .nav-content h1 span{
+    font-size: 35px;
+  }
   .nav-options{
     display: none;
     
@@ -7,9 +10,20 @@
   .ham-burger{
     display: block;
   }
-  .nav-banner{
+  .btn-simple,
+.btn-orange{
+  padding: 6px 60px 6px 60px;
+
+}
+  .nav-banner,
+  .change-habits-img{
     display:flex;
     flex-direction: column;
+  }
+  .change-habits-img div{
+    width: 231px;
+    height: 274px;
+    margin: 0 auto;
   }
   
 }
