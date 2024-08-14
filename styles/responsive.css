@@ -1,5 +1,6 @@
 @media  screen and (max-width:576px) {
   /* Navbar */
+  
   .nav-content h1{
     margin:15px 1px 20px;
   }
@@ -42,5 +43,9 @@
     /* Meet Our Teams */
     .meet-team-description{
       grid-template-columns: repeat(1, 1fr) ;
+    }
+    /* Footer */
+    .footer-section{
+           grid-template-columns: repeat(1, 1fr);
     }
 }
