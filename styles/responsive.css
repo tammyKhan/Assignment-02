@@ -1,4 +1,8 @@
 @media  screen and (max-width:576px) {
+  /* Navbar */
+  .nav-content h1{
+    margin:15px 1px 20px;
+  }
   .nav-content h1,
   .nav-content h1 span{
     font-size: 35px;
@@ -12,7 +16,7 @@
   }
   .btn-simple,
 .btn-orange{
-  padding: 6px 60px 6px 60px;
+  padding: 6px 70px 6px 70px;
 
 }
   .nav-banner,
@@ -20,10 +24,19 @@
     display:flex;
     flex-direction: column;
   }
+  /* Change Habits */
   .change-habits-img div{
     width: 231px;
     height: 274px;
     margin: 0 auto;
   }
-  
+  /* Run Extra Mile */
+  .run-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .run-section img{
+    margin:  10px;
+    width: 90%;
+    }
 }

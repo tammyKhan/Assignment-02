@@ -20,6 +20,12 @@ body{
       font-size: 14px;
       font-weight: 400;
 }
+h2{
+  font-size: 48px;
+  font-weight: 900; 
+  color:white;
+  margin:14px 0;
+}
 
 /* navbar */
 h3{
@@ -148,6 +154,17 @@ text-align: center;
   border:1px solid rgba(135, 127, 127, 0.628);
 
 }
-h2{
-  margin:14px 0;
+
+/* Run an Extra Mile section */
+.run-section{
+  display: flex;
+  background: rgb(34, 34, 34);
+}
+.run-content{
+  padding: 20px;
+}
+.run-section img{
+  margin:  40px 40px 40px 150px;
+  width: 70%;
+  border-radius: 8%;
 }
