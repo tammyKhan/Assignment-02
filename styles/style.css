@@ -7,21 +7,20 @@ body{
   font-family: "Inter", sans-serif;
   background-color: black;
 }
-
 /* default styles */
 .container{
-  width:90%;
+  width:80%;
   margin:3rem auto; /* 1rem = 16px */
   border-radius: 1px;
 }
 .text-content{
       color: rgba(255, 255, 255, 0.5);
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       font-size: 14px;
       font-weight: 400;
 }
 h2{
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 600; 
   color:white;
   margin:14px 0;
@@ -42,6 +41,7 @@ h3{
   justify-content: space-between;
   align-items: center;
 }
+
 .nav-options{
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@ h3{
   border:1px solid rgba(135, 127, 127, 0.473);
   border-radius: 69px;
   color: white;
-  
+
 }
 .nav-options p{
   font-size: 13px;
@@ -70,76 +70,74 @@ h3{
 
 /* Banner section */
 .nav-banner{
-   display: flex;
-   margin:0 auto;
+  display: flex;
 }
 .nav-content {
-  color:white;
-  width:50%;
+ color:white;
+ width:100%;
 }
 .nav-content h1{
-  font-size: 65px;
-  font-weight: 900;
-  margin:90px 1px 20px;
+ font-size: 65px;
+ font-weight: 900;
+ margin:90px 1px 20px;
 }
 .nav-content span{
-  font-size: 60px;
- letter-spacing: 0.1px;
- color: rgba(255, 255, 255, 0.893);
+ font-size: 60px;
+letter-spacing: 0.1px;
+color: rgba(255, 255, 255, 0.893);
 }
 .btn-primary{
   display: flex;
 }
 .btn-simple,
 .btn-orange{
-  border: 1px solid rgb(255, 255, 255);
-  padding: 16px 40px 16px 40px;
-  border-radius: 42px;
-  color: white;
-  background-color: black;
-  margin:25px 5px;
+ border: 1px solid rgb(255, 255, 255);
+ padding: 16px 40px 16px 40px;
+ border-radius: 42px;
+ color: white;
+ background-color: black;
+ margin:25px 5px;
 }
 .btn-orange{
-  background-color:rgb(230, 83, 60) ;
-  border: none;
+ background-color:rgb(230, 83, 60) ;
+ border: none;
 }
-.nav-img{
-  width:50%;
-  padding-left: 90px;
-  position: relative;
+.nav-img {
+ width:100%;
+ object-fit: cover;
+ position: relative;
 }
 .card-01,
 .card-02{
-  width: 150px;
-  height: 98px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-	backdrop-filter: blur(20px);
-  color: white;
-  background: rgba(255, 255, 255, 0.1);
-  padding-top: 20px;
-  position: absolute;
-  top:100px;
-  left: 300px;
-  font-weight: bold;
-  
+ width: 150px;
+ height: 98px;
+ border: 1px solid rgba(255, 255, 255, 0.1);
+ border-radius: 12px;
+ backdrop-filter: blur(20px);
+ color: white;
+ background: rgba(255, 255, 255, 0.1);
+ padding-top: 20px;
+ position: absolute;
+ top:100px;
+ left: 200px;
+ font-weight: bold;
+
 }
 .card-02{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  top:450px;
-  left: 4px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ top:450px;
+ left: 4px;
 }
 .circle{
-  background: rgb(230, 83, 60);
-  height: 35px;
-  border-radius: 70%;
-  width: 35px;
-  margin-right: 5px;
+ background: rgb(230, 83, 60);
+ height: 35px;
+ border-radius: 70%;
+ width: 35px;
+ margin-right: 5px;
 
 }
-
 /* change Your Habits */
 .change-habits{
 color: white;
@@ -157,18 +155,23 @@ text-align: center;
   border:1px solid rgba(135, 127, 127, 0.628);
 
 }
-
 /* Run an Extra Mile section */
 .run-section{
   display: flex;
   background: rgb(34, 34, 34);
+  border-radius: 2%;
+  height: 400px;
+  padding: 46px 43px 46px 51px;
 }
-.run-content{
-  padding: 20px;
+.run-content,
+.run-img{
+  /* padding: 20px; */
+  width: 50%;
 }
 .run-section img{
-  margin:  40px 40px 40px 150px;
-  width: 70%;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
   border-radius: 8%;
 }
 /* BMI Calculator */
@@ -178,16 +181,14 @@ text-align: center;
 }
 .bmi-title{
   background: rgb(34, 34, 34);
-
   width: 671px;
   height: 120px;
   margin: 0 auto;
-
 } */
 /* Meet Our Team */
 .meet-team-title{
   text-align: center;
-  
+
 }
 .meet-team-title p{
   width:70%;
@@ -203,7 +204,8 @@ text-align: center;
   width: 90%;
   height: 272px;
   border-radius: 5%;
-  margin: 10px;
+  margin: 19px;
+  object-fit:cover;
 
 }
 .meet-trainers{
@@ -228,13 +230,12 @@ footer h1{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-top: 50px;
+  text-align: center;
 }
 .footer-column h4{
   margin-bottom: 20px;
 }
-.footer-column{
-  text-align: center;
-}
+
 hr{
   border: 2px solid rgba(255, 255, 255, 0.1);
   width:90%;
