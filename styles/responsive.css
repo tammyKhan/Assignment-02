@@ -58,6 +58,16 @@
      .meet-team-description{
       grid-template-columns: repeat(1, 1fr) ;
     }
+    /* BMI Calculator */
+    .bmi-description{
+      flex-direction: column;
+    }
+    .bmi-form{
+      width: 100%;
+    }
+    .bmi-table{
+      width: 100%;
+    }
       /* Footer */
       .footer-section{
         grid-template-columns: repeat(1, 1fr);
