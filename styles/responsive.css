@@ -32,6 +32,13 @@
     top:250px;
     left: 4px;
    }
+   /* Find a Gym */
+   .unique-section{
+    padding: 0;
+  }
+   .find-gym-container{
+    flex-direction: column;
+  }
    /* Change Habits */
    .change-habits-img div{
     width: 231px;
